@@ -38,7 +38,3 @@ This memo outlines how to set `D:/DATA/10.CLD/GitHub` as the default directory i
      ```bash
      source ~/.bash_profile
      ```
-
-### Conclusion
-
-Following these steps configures Git Bash to start in `D:/DATA/10.CLD/GitHub` automatically, streamlining your workflow by avoiding the need to manually navigate to this directory each time you open Git Bash.
