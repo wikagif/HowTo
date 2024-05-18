@@ -1,2 +1,2 @@
 # HowTo
-This folder contains notes and memos related to PowerShell.
+Comprehensive notes and memos for development tasks and best practices.
