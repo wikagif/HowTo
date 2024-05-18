@@ -27,10 +27,6 @@ To start working locally with a repository, clone it to your local machine:
 git clone https://github.com/username/repository.git
 ```
 - Replace `https://github.com/username/repository.git` with your repository's URL.
-- Example:
-```bash
-git clone https://github.com/johndoe/myproject.git
-```
 
 ## Check Status
 To see the status of your working directory and staging area:
