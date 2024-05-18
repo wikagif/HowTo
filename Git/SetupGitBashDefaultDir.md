@@ -1,7 +1,7 @@
 ## SetupGitBashDefaultDir.md
 
 ### Objective
-This memo outlines how to set `D:/DATA/10.CLD/GitHub` as the default directory in Git Bash, ensuring that each session starts in this specified directory.
+This memo outlines how to set `D:/GitHub` as the default directory in Git Bash, ensuring that each session starts in this specified directory.
 
 ### Steps to Configure Git Bash
 
@@ -15,7 +15,7 @@ This memo outlines how to set `D:/DATA/10.CLD/GitHub` as the default directory i
      ```
    - Add the following line to set the default directory:
      ```bash
-     cd /d/DATA/10.CLD/GitHub
+     cd /d/GitHub
      ```
    - Save the changes and exit nano (Ctrl+O, Enter to save and Ctrl+X to exit).
 
