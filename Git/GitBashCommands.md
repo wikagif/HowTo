@@ -46,12 +46,17 @@ Fetch and merge changes from the remote repository to your local:
 git pull origin main
 ```
 
-### Add changes
-Add changes in specific files to the staging area:
+### Add changes to the staging area
+The staging area allows you to prepare changes before committing them to the repository, providing flexibility on what to include in each commit.
+
+**Add changes in specific files to the staging area**:
 ```bash 
 git add <filename>
-Add all changes to the staging area:
-git add .`
+```
+
+**Add all changes to the staging area**:
+```bash
+git add .
 ```
 
 ### Commit changes / Commenter les changements
