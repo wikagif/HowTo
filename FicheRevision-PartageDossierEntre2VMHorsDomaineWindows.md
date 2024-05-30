@@ -20,7 +20,6 @@
 
 ## Partage du dossier
 
-### Paramétrage du partage
 1. Accédez à l'**Explorateur de fichiers** sur votre Windows Server 2022.
 2. Créez un **nouveau dossier** ou sélectionnez un **dossier existant** que vous souhaitez partager.
 3. Cliquez avec le bouton droit sur le dossier et sélectionnez **Propriétés**.
@@ -30,6 +29,7 @@
 7. Cliquez sur **Partager**, puis sur **Terminer**.
 
 ## Configuration avancée du partage
+
 1. Toujours dans l'onglet **Partage**, cliquez sur **Partage avancé**.
 2. Cochez **Partager ce dossier**.
 3. Définissez un **nom de partage** (le nom que les autres machines utiliseront pour accéder au dossier).
@@ -39,6 +39,7 @@
 5. Cliquez sur **OK**, puis sur **Appliquer** et **OK**.
 
 ## Configuration des permissions NTFS
+
 1. Allez dans l'onglet **Sécurité** des propriétés du dossier.
 2. Ajoutez l'utilisateur que vous avez créé précédemment.
 3. Configurez les **permissions NTFS** pour cet utilisateur (Lecture, Écriture, etc.).
