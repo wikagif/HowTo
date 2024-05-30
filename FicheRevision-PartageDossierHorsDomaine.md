@@ -1,11 +1,11 @@
 # Fiche de révision - Partage de dossier/partition entre deux PC Windows sur un même réseau, hors domaine
 
 ## Sommaire
-- [Configuration côté serveur de fichiers](#configuration-côté-serveur-de-fichiers)
-- [Configuration côté client](#configuration-côté-client)
-- [Références et ressources complémentaires](#références-et-ressources-complémentaires)
+[I. Configuration côté serveur de fichiers](#i.-configuration-côté-serveur-de-fichiers)  
+[II. Configuration côté client](#ii.-configuration-côté-client)  
+[III. Références et ressources complémentaires](#iii.-références-et-ressources-complémentaires)  
 
-## Configuration côté serveur de fichiers
+## I. Configuration côté serveur de fichiers
 
 ### Création d'un utilisateur local
 1. Ouvrez **Gestion de l'ordinateur** (`compmgmt.msc`).
@@ -30,7 +30,7 @@
 2. Ajoutez l'utilisateur que vous avez créé précédemment.
 3. Configurez les **permissions NTFS** pour cet utilisateur (lecture, écriture, etc.).
 
-## Configuration côté client
+## II. Configuration côté client
 
 ### Mapping du dossier partagé comme lecteur réseau
 1. Ouvrez l'**Explorateur de fichiers**.
@@ -46,7 +46,7 @@
 1. Accédez à **Ce PC** dans l'Explorateur de fichiers.
 2. Vous devriez voir le lecteur réseau mappé avec la lettre que vous avez choisie. Cliquez dessus pour accéder au contenu du dossier partagé.
 
-## Références et ressources complémentaires
+## III. Références et ressources complémentaires
 - [Documentation Microsoft sur la gestion des utilisateurs locaux sur Windows Server](https://docs.microsoft.com/fr-fr/windows-server/identity/local-users-and-groups)
 - [Guide officiel de partage de dossier sur Windows par Microsoft](https://support.microsoft.com/fr-fr/windows/partager-des-fichiers-et-des-dossiers-dans-l-explorateur-de-fichiers-1fe099e9-4000-448e-8d65-bb8c7b8856de)
 - [Permissions NTFS - Documentation officielle de Microsoft](https://docs.microsoft.com/fr-fr/windows/security/identity-protection/access-control/ntfs-permissions)
