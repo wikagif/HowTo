@@ -1,4 +1,4 @@
-# Fiche de révision - Se connecter en SSH entre deux machines virtuelles Windows (VMWare Workstation)
+# Fiche - Se connecter en SSH entre deux machines virtuelles Windows (VMWare Workstation)
 
 ## Sommaire
 - [I. Installer et lancer OpenSSH.Server sur VM1 (serveur)](#i-installer-et-lancer-opensshserver-sur-vm1-serveur)  
