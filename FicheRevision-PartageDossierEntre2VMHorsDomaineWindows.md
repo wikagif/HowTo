@@ -2,13 +2,12 @@
 
 ## Sommaire
 1. [Configuration des utilisateurs sur le serveur](#configuration-des-utilisateurs-sur-le-serveur)
-2. [Partage du dossier](#partage-du-dossier)
-3. [Configuration avancée du partage](#configuration-avancée-du-partage)
-4. [Configuration des permissions NTFS](#configuration-des-permissions-ntfs)
-5. [Mapping du dossier partagé comme lecteur réseau sur Windows 11](#mapping-du-dossier-partagé-comme-lecteur-réseau-sur-windows-11)
-6. [Vérification de la connexion](#vérification-de-la-connexion)
-7. [Exercices pratiques](#exercices-pratiques)
-8. [Références et ressources complémentaires](#références-et-ressources-complémentaires)
+2. [Configuration avancée du partage](#configuration-avancée-du-partage)
+3. [Configuration des permissions NTFS](#configuration-des-permissions-ntfs)
+4. [Mapping du dossier partagé comme lecteur réseau sur Windows 11](#mapping-du-dossier-partagé-comme-lecteur-réseau-sur-windows-11)
+5. [Vérification de la connexion](#vérification-de-la-connexion)
+6. [Exercices pratiques](#exercices-pratiques)
+7. [Références et ressources complémentaires](#références-et-ressources-complémentaires)
 
 ## Configuration des utilisateurs sur le serveur
 
@@ -17,16 +16,6 @@
 2. Allez dans **Utilisateurs et groupes locaux** > **Utilisateurs**.
 3. Cliquez avec le bouton droit sur **Utilisateurs** et sélectionnez **Nouvel utilisateur**.
 4. Créez un utilisateur avec un **nom** et un **mot de passe** identiques à ceux utilisés sur la machine Windows 11.
-
-## Partage du dossier
-
-1. Accédez à l'**Explorateur de fichiers** sur votre Windows Server 2022.
-2. Créez un **nouveau dossier** ou sélectionnez un **dossier existant** que vous souhaitez partager.
-3. Cliquez avec le bouton droit sur le dossier et sélectionnez **Propriétés**.
-4. Allez dans l'onglet **Partage** et cliquez sur **Partager**.
-5. Ajoutez l'utilisateur que vous venez de créer en cliquant sur **Ajouter** et en tapant son nom.
-6. Définissez les **autorisations** pour cet utilisateur (Lecture ou Lecture/Écriture).
-7. Cliquez sur **Partager**, puis sur **Terminer**.
 
 ## Configuration avancée du partage
 
