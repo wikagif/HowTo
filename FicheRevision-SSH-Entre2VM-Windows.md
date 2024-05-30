@@ -1,4 +1,10 @@
-# Fiche de révision - Se connecter en SSH entre deux VM Windows
+# Fiche de révision - Se connecter en SSH entre deux machines virtuelles Windows (VMWare Workstation)
+
+## Sommaire
+- [I. Installer et lancer OpenSSH.Server sur VM1 (serveur)](#i-installer-et-lancer-opensshserver-sur-vm1-serveur)
+- [II. Créer et configurer le réseau entre les deux VM](#ii-créer-et-configurer-le-réseau-entre-les-deux-vm)
+- [III. Passer de réseau public à privé sur les deux VM](#iii-passer-de-réseau-public-à-privé-sur-les-deux-vm)
+- [IV. Se connecter à la VM1 depuis la VM2](#iv-se-connecter-à-la-vm1-depuis-la-vm2)
 
 ## I. Installer et lancer OpenSSH.Server sur VM1 (serveur)
 
@@ -25,7 +31,7 @@
    
       Ces commandes démarrent le service OpenSSH.Server et le configurent pour qu'il se lance automatiquement au démarrage du système.  
 
-## II. Créer et configurer le réseau entre les 2 VM
+## II. Créer et configurer le réseau entre les deux VM
 
 1. Dans Virtual Network Editor, créer et configurer un réseau Vmnet libre en Host-Only :
     - Ouvrez **Virtual Network Editor** depuis VMware Workstation.
@@ -35,14 +41,14 @@
       - Ouvrez les paramètres de chaque VM.
       - Sous l'onglet **Network Adapter**, sélectionnez le Vmnet précédemment créé.  
 
-## III. Passer de réseau public à privé sur les 2 VM
+## III. Passer de réseau public à privé sur les deux VM
 
 1. Dans l'explorateur Windows des deux VM :
       - Accédez à **Network**.
       - Lorsque le bandeau jaune apparaît, cliquez dessus pour basculer le réseau de public à privé.
       - Assurez-vous que les machines sont visibles sur le réseau.  
 
-## IV. Se connecter à la VM1
+## IV. Se connecter à la VM1 depuis la VM2
 
 1. Depuis CMD, noter l'IP de VM1 avec :
       ```batch
