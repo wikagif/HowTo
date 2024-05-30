@@ -1,24 +1,24 @@
 # Fiche de Révision : Adressage réseau et sous-réseaux en IPv4
 
 ## Sommaire
-1. [Introduction à l'Adressage Réseau](#introduction-à-ladressage-réseau)
-2. [L'Adresse Réseau](#ladresse-réseau)
-3. [Nombre d'Adresses Attribuables](#nombre-dadresses-attribuables)
+1. [Introduction à l'adressage réseau](#introduction-à-ladressage-réseau)
+2. [L'Adresse réseau](#ladresse-réseau)
+3. [Nombre d'adresses Attribuables](#nombre-dadresses-attribuables)
 4. [Adresse de Broadcast](#adresse-de-broadcast)
 5. [Notation CIDR (Classless Inter-Domain Routing)](#notation-cidr-classless-inter-domain-routing)
-6. [Exercices Pratiques](#exercices-pratiques)
-7. [Références et Ressources Complémentaires](#références-et-ressources-complémentaires)
+6. [Exercices pratiques](#exercices-pratiques)
+7. [Références et ressources complémentaires](#références-et-ressources-complémentaires)
 
-## Introduction à l'Adressage Réseau
+## Introduction à l'adressage réseau
 
 L'adressage réseau en IPv4 est crucial pour la structuration et la gestion des réseaux IP. Il permet de définir des plages d'adresses pour les appareils connectés et de faciliter la communication entre eux.
 
-## L'Adresse Réseau
+## L'Adresse réseau
 
 ### Définition
 L'adresse réseau est obtenue en appliquant un masque de sous-réseau à une adresse IP. Les bits à 1 de l'adresse IP et du masque de sous-réseau déterminent l'adresse réseau.
 
-### Calcul de l'Adresse Réseau
+### Calcul de l'adresse réseau
 - **Exemple :**
   - Adresse IP : 192.168.1.10
   - Masque de sous-réseau : 255.255.255.0
@@ -32,7 +32,7 @@ L'adresse réseau est obtenue en appliquant un masque de sous-réseau à une adr
 | **Masque**       | 11111111 | 11111111 | 11111111 | 00000000 |
 | **Adresse Réseau** | 11000000 | 10101000 | 00000001 | 00000000 |
 
-## Nombre d'Adresses Attribuables
+## Nombre d'adresses attribuables
 
 ### Calcul
 Le nombre d'adresses attribuables est déterminé par les bits à 0 du masque de sous-réseau.
@@ -51,7 +51,7 @@ Le "-2" est utilisé pour soustraire l'adresse réseau et l'adresse de broadcast
 ### Définition
 L'adresse de broadcast permet de communiquer avec tous les hôtes d'un réseau donné.
 
-### Calcul de l'Adresse de Broadcast
+### Calcul de l'adresse de broadcast
 Remplacer les bits à 0 du masque de sous-réseau par des 1 dans l'adresse IP.
 - **Exemple :**
   - Adresse IP : 192.168.1.10
@@ -71,7 +71,7 @@ Remplacer les bits à 0 du masque de sous-réseau par des 1 dans l'adresse IP.
 ### Définition
 La notation CIDR est une méthode de spécification des masques de sous-réseau de manière concise.
 
-### Compréhension et Utilisation
+### Compréhension et utilisation
 - **Exemple :** `/25` signifie que les 25 premiers bits de l'adresse sont des 1, les bits restants sont des 0.
 - **Conversion :**
   - `/25` : 11111111.11111111.11111111.10000000
@@ -88,9 +88,9 @@ La notation CIDR est une méthode de spécification des masques de sous-réseau 
   - Plage d'adresses : de 192.168.1.1 à 192.168.1.126
   - Adresse de broadcast : 192.168.1.127
 
-## Exercices Pratiques
+## Exercices pratiques
 
-### Calculer l'Adresse Réseau
+### Calculer l'adresse Réseau
 - **Adresse IP :** 172.16.5.10
 - **Masque de sous-réseau :** 255.255.255.240
 
@@ -99,7 +99,7 @@ La notation CIDR est une méthode de spécification des masques de sous-réseau 
   - Masque : 11111111.11111111.11111111.11110000
   - Adresse réseau : 10101100.00010000.00000101.00000000 (172.16.5.0)
 
-### Calculer le Nombre d'Adresses Attribuables
+### Calculer le nombre d'adresses attribuables
 - **Masque de sous-réseau :** 255.255.255.240
 
 - **Solution :**
@@ -115,13 +115,13 @@ La notation CIDR est une méthode de spécification des masques de sous-réseau 
   - Masque : 11111111.11111111.11111111.11110000
   - Adresse de broadcast : 10101100.00010000.00000101.00001111 (172.16.5.15)
 
-### Conversion en Notation CIDR
+### Conversion en notation CIDR
 - **Masque de sous-réseau :** 255.255.255.192
 - **Solution :**
   - En binaire : 11111111.11111111.11111111.11000000
   - Notation CIDR : /26
 
-## Références et Ressources Complémentaires
+## Références et ressources complémentaires
 
 - **RFC 1918 :** Adressage IP privé.
 - **Documentation Cisco :** Guide sur le VLSM (Variable Length Subnet Mask).
