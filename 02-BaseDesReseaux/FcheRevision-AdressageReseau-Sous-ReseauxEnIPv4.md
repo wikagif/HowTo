@@ -2,8 +2,8 @@
 
 ## Sommaire
 1. [Introduction à l'adressage réseau](#introduction-à-ladressage-réseau)
-2. [L'Adresse réseau](#ladresse-réseau)
-3. [Nombre d'adresses Attribuables](#nombre-dadresses-attribuables)
+2. [L'adresse réseau](#ladresse-réseau)
+3. [Nombre d'adresses attribuables](#nombre-dadresses-attribuables)
 4. [Adresse de Broadcast](#adresse-de-broadcast)
 5. [Notation CIDR (Classless Inter-Domain Routing)](#notation-cidr-classless-inter-domain-routing)
 6. [Exercices pratiques](#exercices-pratiques)
