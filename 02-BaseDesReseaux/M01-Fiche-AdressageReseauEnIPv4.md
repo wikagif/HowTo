@@ -134,8 +134,6 @@ La notation CIDR est une méthode de spécification des masques de sous-réseau 
 
 ## VII. Références et ressources complémentaires
 
-## VII. Références et ressources complémentaires
-
 - [RFC 1918 : Documentation officielle sur l'utilisation des adresses IP privées (ietf.org)](https://tools.ietf.org/html/rfc1918)
 - [Documentation Cisco : Guide sur le VLSM (Variable Length Subnet Mask) (cisco.com)](https://www.cisco.com/c/en/us/support/docs/ip/ip-routing/16453-7.html)
 - [Outil en ligne : Calculateur de sous-réseaux IP (subnet-calculator.org)](https://www.subnet-calculator.org/)
