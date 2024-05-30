@@ -47,7 +47,7 @@
 2. Vous devriez voir le lecteur réseau mappé avec la lettre que vous avez choisie. Cliquez dessus pour accéder au contenu du dossier partagé.
 
 ## III. Références et ressources complémentaires
-- [Documentation Microsoft sur la gestion des utilisateurs locaux sur Windows Server](https://docs.microsoft.com/fr-fr/windows-server/identity/local-users-and-groups)
-- [Guide officiel de partage de dossier sur Windows par Microsoft](https://support.microsoft.com/fr-fr/windows/partager-des-fichiers-et-des-dossiers-dans-l-explorateur-de-fichiers-1fe099e9-4000-448e-8d65-bb8c7b8856de)
-- [Permissions NTFS - Documentation officielle de Microsoft](https://docs.microsoft.com/fr-fr/windows/security/identity-protection/access-control/ntfs-permissions)
-- [Tutoriel sur le mapping de lecteur réseau par Windows Central](https://www.windowscentral.com/how-map-network-drive-windows-10)
+- [Documentation Microsoft sur la gestion des utilisateurs locaux sur Windows Server (microsoft.com)](https://docs.microsoft.com/fr-fr/windows-server/identity/local-users-and-groups)
+- [Guide officiel de partage de dossier sur Windows par Microsoft (support.microsoft.com)](https://support.microsoft.com/fr-fr/windows/partager-des-fichiers-et-des-dossiers-dans-l-explorateur-de-fichiers-1fe099e9-4000-448e-8d65-bb8c7b8856de)
+- [Permissions NTFS - Documentation officielle de Microsoft (microsoft.com)](https://docs.microsoft.com/fr-fr/windows/security/identity-protection/access-control/ntfs-permissions)
+- [Tutoriel sur le mapping de lecteur réseau par Windows Central (windowscentral.com)](https://www.windowscentral.com/how-map-network-drive-windows-10)
