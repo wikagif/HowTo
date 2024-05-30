@@ -13,7 +13,7 @@
 
 L'adressage réseau en IPv4 est crucial pour la structuration et la gestion des réseaux IP. Il permet de définir des plages d'adresses pour les appareils connectés et de faciliter la communication entre eux.
 
-## L'Adresse réseau
+## L'adresse réseau
 
 ### Définition
 L'adresse réseau est obtenue en appliquant un masque de sous-réseau à une adresse IP. Les bits à 1 de l'adresse IP et du masque de sous-réseau déterminent l'adresse réseau.
@@ -36,12 +36,13 @@ L'adresse réseau est obtenue en appliquant un masque de sous-réseau à une adr
 
 ### Calcul
 Le nombre d'adresses attribuables est déterminé par les bits à 0 du masque de sous-réseau.
-- **Formule :** `2^n - 2` où `n` est le nombre de bits à 0 dans le masque de sous-réseau.
+- **Formule :** $2^n$ - 2 où $^n$ est le nombre de bits à 0 dans le masque de sous-réseau.
+
 - **Exemple :**
   - Masque de sous-réseau : 255.255.255.252
   - En binaire : 11111111.11111111.11111111.11111100
   - Nombre de bits à 0 : 2
-  - Nombre d'adresses attribuables : `2^2 - 2 = 4 - 2 = 2`
+  - Nombre d'adresses attribuables : $2^2$ - 2 = 2
 
 ### Explication
 Le "-2" est utilisé pour soustraire l'adresse réseau et l'adresse de broadcast, qui ne peuvent pas être attribuées à des hôtes.
@@ -52,19 +53,25 @@ Le "-2" est utilisé pour soustraire l'adresse réseau et l'adresse de broadcast
 L'adresse de broadcast permet de communiquer avec tous les hôtes d'un réseau donné.
 
 ### Calcul de l'adresse de broadcast
-Remplacer les bits à 0 du masque de sous-réseau par des 1 dans l'adresse IP.
+
+1. Écrivez l'adresse IP donnée en format binaire.
+2. Ecrivez le masque de sous-réseau sous forme binaire.
+3. Écrivez l'inverse du masque de sous-réseau sous forme binaire.
+4. Effectuez l'opération de OU logique (OR) entre les octets de l'adresse IP et l'inverse du masque de sous-réseau.
+5. Reconvertissez le résultat obtenu en format décimal pour obtenir l'adresse de broadcast.
+
 - **Exemple :**
   - Adresse IP : 192.168.1.10
   - Masque de sous-réseau : 255.255.255.252
-  - Calcul : 192.168.1.11
+  - Adresse de broadcast calculée : 192.168.1.15
 
 - **En binaire :**
 
-|                  | Octet 1  | Octet 2  | Octet 3  | Octet 4  |
-|------------------|----------|----------|----------|----------|
-| **Adresse IP**   | 11000000 | 10101000 | 00000001 | 00001010 |
-| **Masque**       | 11111111 | 11111111 | 11111111 | 11111100 |
-| **Adresse de Broadcast** | 11000000 | 10101000 | 00000001 | 00001111 |
+|                                           | Octet 1  | Octet 2  | Octet 3  | Octet 4  |
+|-------------------------------------------|----------|----------|----------|----------|
+| **Adresse IP**                            | 11000000 | 10101000 | 00000001 | 00001010 |
+| **Inverse du masque de sous-réseau**      | 00000000 | 00000000 | 00000000 | 00000011 |
+| **Adresse de Broadcast**                  | 11000000 | 10101000 | 00000001 | 00001111 |
 
 ## Notation CIDR (Classless Inter-Domain Routing)
 
@@ -104,7 +111,7 @@ La notation CIDR est une méthode de spécification des masques de sous-réseau 
 
 - **Solution :**
   - Nombre de bits à 0 : 4
-  - Nombre d'adresses attribuables : `2^4 - 2 = 16 - 2 = 14`
+  - Nombre d'adresses attribuables : $2^4$ - 2 = 16 - 2 = 14
 
 ### Calculer l'Adresse de Broadcast
 - **Adresse IP :** 172.16.5.10
