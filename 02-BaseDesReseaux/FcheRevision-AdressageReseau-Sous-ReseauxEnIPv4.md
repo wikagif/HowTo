@@ -13,6 +13,8 @@
 
 L'adressage réseau en IPv4 est crucial pour la structuration et la gestion des réseaux IP. Il permet de définir des plages d'adresses pour les appareils connectés et de faciliter la communication entre eux.
 
+A noter : Pour qu'un masque de sous-réseau soit considéré comme valide, une fois converti en binaire, il doit avoir des bits de 1 consécutifs suivis de bits de 0 consécutifs. Les masques sont utilisés pour structurer des réseaux en sous-réseaux de tailles spécifiques selon les besoins du réseau.
+
 ## L'adresse réseau
 
 ### Définition
