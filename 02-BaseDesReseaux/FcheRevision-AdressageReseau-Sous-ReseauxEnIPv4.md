@@ -26,10 +26,10 @@ L'adresse réseau est obtenue en appliquant un masque de sous-réseau à une adr
 
 - **En binaire :**
 
-|                  | Octet 1  | Octet 2  | Octet 3  | Octet 4  |
-|------------------|----------|----------|----------|----------|
-| **Adresse IP**   | 11000000 | 10101000 | 00000001 | 00001010 |
-| **Masque**       | 11111111 | 11111111 | 11111111 | 00000000 |
+|                    | Octet 1  | Octet 2  | Octet 3  | Octet 4  |
+|--------------------|----------|----------|----------|----------|
+| **Adresse IP**     | 11000000 | 10101000 | 00000001 | 00001010 |
+| **Masque**         | 11111111 | 11111111 | 11111111 | 00000000 |
 | **Adresse Réseau** | 11000000 | 10101000 | 00000001 | 00000000 |
 
 ## Nombre d'adresses attribuables
