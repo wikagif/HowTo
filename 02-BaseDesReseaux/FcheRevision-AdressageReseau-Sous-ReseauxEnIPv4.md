@@ -1,4 +1,4 @@
-# Fiche de Révision : Adressage réseau et sous-réseaux en IPv4
+# Fiche de révision : Adressage réseau et sous-réseaux en IPv4
 
 ## Sommaire
 1. [Introduction à l'adressage réseau](#introduction-à-ladressage-réseau)
