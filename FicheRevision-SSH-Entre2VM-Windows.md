@@ -4,7 +4,8 @@
 - [I. Installer et lancer OpenSSH.Server sur VM1 (serveur)](#i-installer-et-lancer-opensshserver-sur-vm1-serveur)  
 - [II. Créer et configurer le réseau entre les deux VM](#ii-créer-et-configurer-le-réseau-entre-les-deux-vm)  
 - [III. Passer de réseau public à privé sur les deux VM](#iii-passer-de-réseau-public-à-privé-sur-les-deux-vm)  
-- [IV. Se connecter à la VM1 depuis la VM2](#iv-se-connecter-à-la-vm1-depuis-la-vm2)  
+- [IV. Se connecter à la VM1 depuis la VM2](#iv-se-connecter-à-la-vm1-depuis-la-vm2)
+- [V. Références et ressources complémentaires](#v-références-et-ressources-complémentaires)
 
 ## I. Installer et lancer OpenSSH.Server sur VM1 (serveur)
 
@@ -72,3 +73,10 @@
       New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
       ```
       Cette commande crée une règle de pare-feu pour autoriser les connexions entrantes sur le port 22, utilisé par le service SSH.
+
+## V. Références et ressources complémentaires
+- [Documentation Microsoft sur OpenSSH (microsoft.com)](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) - Instructions officielles pour installer et utiliser OpenSSH sur Windows.
+- [Guide de configuration de réseau dans VMware Workstation (vmware.com)](https://www.vmware.com/support/ws5/doc/ws_net_configurations_changing_bridged.html) - Tutoriel pour configurer différents types de réseaux dans VMware Workstation.
+- [Tutoriel pour changer un réseau de public à privé sur Windows (support.microsoft.com)](https://support.microsoft.com/en-us/windows/make-a-wi-fi-network-public-or-private-in-windows-10-92382155-d091-48ff-878b-0a6d0d4b74e6) - Guide pour basculer un réseau de public à privé sur Windows 10.
+- [Guide de connexion SSH sous Windows (ssh.com)](https://www.ssh.com/academy/ssh/command) - Tutoriel détaillé sur l'utilisation de la commande SSH sous Windows.
+- [Configuration du pare-feu Windows pour OpenSSH (microsoft.com)](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-inbound-port-rule) - Documentation officielle pour créer une règle de pare-feu permettant les connexions SSH sur Windows.
