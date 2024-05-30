@@ -1,11 +1,11 @@
 # Fiche - Se connecter en SSH entre deux machines virtuelles Windows (VMWare Workstation)
 
 ## Sommaire
-- [I. Installer et lancer OpenSSH.Server sur VM1 (serveur)](#i-installer-et-lancer-opensshserver-sur-vm1-serveur)  
-- [II. Créer et configurer le réseau entre les deux VM](#ii-créer-et-configurer-le-réseau-entre-les-deux-vm)  
-- [III. Passer de réseau public à privé sur les deux VM](#iii-passer-de-réseau-public-à-privé-sur-les-deux-vm)  
-- [IV. Se connecter à la VM1 depuis la VM2](#iv-se-connecter-à-la-vm1-depuis-la-vm2)
-- [V. Références et ressources complémentaires](#v-références-et-ressources-complémentaires)
+[I. Installer et lancer OpenSSH.Server sur VM1 (serveur)](#i-installer-et-lancer-opensshserver-sur-vm1-serveur)  
+[II. Créer et configurer le réseau entre les deux VM](#ii-créer-et-configurer-le-réseau-entre-les-deux-vm)  
+[III. Passer de réseau public à privé sur les deux VM](#iii-passer-de-réseau-public-à-privé-sur-les-deux-vm)  
+[IV. Se connecter à la VM1 depuis la VM2](#iv-se-connecter-à-la-vm1-depuis-la-vm2)
+[V. Références et ressources complémentaires](#v-références-et-ressources-complémentaires)
 
 ## I. Installer et lancer OpenSSH.Server sur VM1 (serveur)
 
