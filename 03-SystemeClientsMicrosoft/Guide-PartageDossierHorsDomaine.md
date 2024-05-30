@@ -1,4 +1,4 @@
-# Fiche - Partage de dossier/partition entre deux PC Windows sur un même réseau, hors domaine
+# Guide - Partage de dossier/partition entre deux PC Windows sur un même réseau, hors domaine
 
 ## Sommaire
 [I. Configuration côté serveur de fichiers](#i-configuration-côté-serveur-de-fichiers)  
