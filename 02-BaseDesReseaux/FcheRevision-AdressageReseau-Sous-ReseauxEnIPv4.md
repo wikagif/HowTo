@@ -1,4 +1,4 @@
-# Fiche de Révision : Adressage Réseau et Sous-Réseaux en IPv4
+# Fiche de Révision : Adressage réseau et sous-réseaux en IPv4
 
 ## Sommaire
 1. [Introduction à l'Adressage Réseau](#introduction-à-ladressage-réseau)
@@ -93,6 +93,7 @@ La notation CIDR est une méthode de spécification des masques de sous-réseau 
 ### Calculer l'Adresse Réseau
 - **Adresse IP :** 172.16.5.10
 - **Masque de sous-réseau :** 255.255.255.240
+
 - **Solution :**
   - Adresse IP en binaire : 10101100.00010000.00000101.00001010
   - Masque : 11111111.11111111.11111111.11110000
@@ -100,6 +101,7 @@ La notation CIDR est une méthode de spécification des masques de sous-réseau 
 
 ### Calculer le Nombre d'Adresses Attribuables
 - **Masque de sous-réseau :** 255.255.255.240
+
 - **Solution :**
   - Nombre de bits à 0 : 4
   - Nombre d'adresses attribuables : `2^4 - 2 = 16 - 2 = 14`
@@ -107,6 +109,7 @@ La notation CIDR est une méthode de spécification des masques de sous-réseau 
 ### Calculer l'Adresse de Broadcast
 - **Adresse IP :** 172.16.5.10
 - **Masque de sous-réseau :** 255.255.255.240
+
 - **Solution :**
   - Adresse IP en binaire : 10101100.00010000.00000101.00001010
   - Masque : 11111111.11111111.11111111.11110000
