@@ -1,21 +1,23 @@
-# Fiche de révision : Adressage réseau et sous-réseaux en IPv4
+# Fiche - Adressage réseau et sous-réseaux en IPv4
 
 ## Sommaire
-1. [Introduction à l'adressage réseau](#introduction-à-ladressage-réseau)
-2. [L'adresse réseau](#ladresse-réseau)
-3. [Nombre d'adresses attribuables](#nombre-dadresses-attribuables)
-4. [Adresse de Broadcast](#adresse-de-broadcast)
-5. [Notation CIDR (Classless Inter-Domain Routing)](#notation-cidr-classless-inter-domain-routing)
-6. [Exercices pratiques](#exercices-pratiques)
-7. [Références et ressources complémentaires](#références-et-ressources-complémentaires)
+[I. Introduction à l'adressage réseau](#i-introduction-à-ladressage-réseau)  
+[II. L'adresse réseau](#ii-ladresse-réseau)  
+[III. Nombre d'adresses attribuables](#iii-nombre-dadresses-attribuables)  
+[IV. Adresse de Broadcast](#iv-adresse-de-broadcast)  
+[V. Notation CIDR (Classless Inter-Domain Routing)](#v-notation-cidr-classless-inter-domain-routing)  
+[VI. Exercices pratiques](#vi-exercices-pratiques)  
+[VII. Références et ressources complémentaires](#vii-références-et-ressources-complémentaires)  
 
-## Introduction à l'adressage réseau
+---
 
-L'adressage réseau en IPv4 est crucial pour la structuration et la gestion des réseaux IP. Il permet de définir des plages d'adresses pour les appareils connectés et de faciliter la communication entre eux.
+## I. Introduction à l'adressage réseau
 
-A noter : Pour qu'un masque de sous-réseau soit considéré comme valide, une fois converti en binaire, il doit avoir des bits de 1 consécutifs suivis de bits de 0 consécutifs. Les masques sont utilisés pour structurer des réseaux en sous-réseaux de tailles spécifiques selon les besoins du réseau.
+- L'adressage réseau en IPv4 est crucial pour la structuration et la gestion des réseaux IP. Il permet de définir des plages d'adresses pour les appareils connectés et de faciliter la communication entre eux.
 
-## L'adresse réseau
+- A noter : Pour qu'un masque de sous-réseau soit considéré comme valide, une fois converti en binaire, il doit avoir des bits de 1 consécutifs suivis de bits de 0 consécutifs. Les masques sont utilisés pour structurer des réseaux en sous-réseaux de tailles spécifiques selon les besoins du réseau.
+
+## II. L'adresse réseau
 
 ### Définition
 L'adresse réseau est obtenue en appliquant un masque de sous-réseau à une adresse IP. Les bits à 1 de l'adresse IP et du masque de sous-réseau déterminent l'adresse réseau.
@@ -34,7 +36,7 @@ L'adresse réseau est obtenue en appliquant un masque de sous-réseau à une adr
 | **Masque**         | 11111111 | 11111111 | 11111111 | 00000000 |
 | **Adresse Réseau** | 11000000 | 10101000 | 00000001 | 00000000 |
 
-## Nombre d'adresses attribuables
+## III. Nombre d'adresses attribuables
 
 ### Calcul
 Le nombre d'adresses attribuables est déterminé par les bits à 0 du masque de sous-réseau.
@@ -49,7 +51,7 @@ Le nombre d'adresses attribuables est déterminé par les bits à 0 du masque de
 ### Explication
 Le "-2" est utilisé pour soustraire l'adresse réseau et l'adresse de broadcast, qui ne peuvent pas être attribuées à des hôtes.
 
-## Adresse de Broadcast
+## IV. Adresse de Broadcast
 
 ### Définition
 L'adresse de broadcast permet de communiquer avec tous les hôtes d'un réseau donné.
@@ -75,7 +77,7 @@ L'adresse de broadcast permet de communiquer avec tous les hôtes d'un réseau d
 | **Inverse du masque de sous-réseau**      | 00000000 | 00000000 | 00000000 | 00000011 |
 | **Adresse de Broadcast**                  | 11000000 | 10101000 | 00000001 | 00001111 |
 
-## Notation CIDR (Classless Inter-Domain Routing)
+## V. Notation CIDR (Classless Inter-Domain Routing)
 
 ### Définition
 La notation CIDR est une méthode de spécification des masques de sous-réseau de manière concise.
@@ -97,7 +99,7 @@ La notation CIDR est une méthode de spécification des masques de sous-réseau 
   - Plage d'adresses : de 192.168.1.1 à 192.168.1.126
   - Adresse de broadcast : 192.168.1.127
 
-## Exercices pratiques
+## VI. Exercices pratiques
 
 ### Calculer l'adresse Réseau
 - **Adresse IP :** 172.16.5.10
@@ -130,8 +132,10 @@ La notation CIDR est une méthode de spécification des masques de sous-réseau 
   - En binaire : 11111111.11111111.11111111.11000000
   - Notation CIDR : /26
 
-## Références et ressources complémentaires
+## VII. Références et ressources complémentaires
 
-- **RFC 1918 :** Adressage IP privé.
-- **Documentation Cisco :** Guide sur le VLSM (Variable Length Subnet Mask).
-- **Outils en ligne :** Calculateur de sous-réseaux IP.
+## VII. Références et ressources complémentaires
+
+- [RFC 1918 : Documentation officielle sur l'utilisation des adresses IP privées (ietf.org)](https://tools.ietf.org/html/rfc1918)
+- [Documentation Cisco : Guide sur le VLSM (Variable Length Subnet Mask) (cisco.com)](https://www.cisco.com/c/en/us/support/docs/ip/ip-routing/16453-7.html)
+- [Outil en ligne : Calculateur de sous-réseaux IP (subnet-calculator.org)](https://www.subnet-calculator.org/)
