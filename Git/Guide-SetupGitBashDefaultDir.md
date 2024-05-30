@@ -1,4 +1,4 @@
-## SetupGitBashDefaultDir.md
+## Guide-SetupGitBashDefaultDir.md
 
 ### Objective
 This document outlines how to set `D:/GitHub` as the default directory in Git Bash, ensuring that each session starts in this specified directory.
