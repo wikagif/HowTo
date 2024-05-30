@@ -9,8 +9,6 @@
 [VI. Exercices pratiques](#vi-exercices-pratiques)  
 [VII. Références et ressources complémentaires](#vii-références-et-ressources-complémentaires)  
 
----
-
 ## I. Introduction à l'adressage réseau
 
 - L'adressage réseau en IPv4 est crucial pour la structuration et la gestion des réseaux IP. Il permet de définir des plages d'adresses pour les appareils connectés et de faciliter la communication entre eux.
